@@ -7,30 +7,49 @@ export class Header extends Component {
 
     render() {
         return <Navbar inverse fluid>
-            <Navbar.Header>
-                <Navbar.Brand>
-                    <Link to='/menu'>Меню</Link>
-                </Navbar.Brand>
-                <Navbar.Toggle/>
-            </Navbar.Header>
-            <Navbar.Header>
-                <Navbar.Brand>
-                    <Link to='/magazine'>Магазин</Link>
-                </Navbar.Brand>
-                <Navbar.Toggle/>
-            </Navbar.Header>
-            <Navbar.Header>
-                <Navbar.Brand>
-                    <Link to='/foto'>Фото</Link>
-                </Navbar.Brand>
-                <Navbar.Toggle/>
-            </Navbar.Header>
-            <Navbar.Header>
-                <Navbar.Brand>
-                    <Link to='/'>О нас</Link>
-                </Navbar.Brand>
-                <Navbar.Toggle/>
-            </Navbar.Header>
+
+
+                {/*<Navbar.Brand>*/}
+                    {/*<Link to='/magazine'>Магазин</Link>*/}
+                {/*</Navbar.Brand>*/}
+                {/*<Navbar.Toggle/>*/}
+
+
+                {/*<Navbar.Brand>*/}
+                    {/*<Link to='/foto'>Фото</Link>*/}
+                {/*</Navbar.Brand>*/}
+                {/*<Navbar.Toggle/>*/}
+
+
+                <Navbar.Header>
+                    <Navbar.Brand>
+                        <Link to='/menu'>Меню</Link>
+                    </Navbar.Brand>
+                    <Navbar.Toggle/>
+                </Navbar.Header>
+                <Navbar.Collapse>
+
+
+                    <Navbar.Brand>
+                        <Link to='/magazine'>Магазин</Link>
+                    </Navbar.Brand>
+
+
+
+                    <Navbar.Brand>
+                        <Link to='/foto'>Фото</Link>
+                    </Navbar.Brand>
+
+
+
+
+                    <Navbar.Brand>
+                        <Link to='/'>О нас</Link>
+                    </Navbar.Brand>
+                </Navbar.Collapse>
+
+
+
         </Navbar>
 
     }
